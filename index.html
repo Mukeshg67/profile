@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="profile.jpg" alt="">
+            </a>
+            <div class="title">
+               GODDU MUKESH
+            </div>
+            <div class="place">
+               NARASANNAPETA
+            </div>
+         </div>
+         <div class="content">
+            <p>
+                Computer science & engineering <br>VIT AP
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <button>Message</button>
+               </div>
+               <div class="btn">
+                  <button>contact</button>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100014514315753&mibextid=2JQ9oc"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://github.com/mukeshg6789"><span class="fab fa-github"></span></a></li>
+            <li><a href="https://instagram.com/_mukeshg67_?igshid=OGQ5ZDc2ODk2ZA=="><span class="fab fa-instagram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
